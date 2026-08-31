@@ -551,7 +551,7 @@ Les redimensionner à une taille prise en charge ? Les pages conservent leur app
     <sys:String x:Key="Str_Tf_LevelsBlack">Point noir</sys:String>
     <sys:String x:Key="Str_Tf_LevelsWhite">Point blanc</sys:String>
     <sys:String x:Key="Str_Tf_LevelsGamma">Tons moyens</sys:String>
-    <sys:String x:Key="Str_Tf_Quality">Qualité</sys:String> QUALITÉ</sys:String>
+    <sys:String x:Key="Str_Tf_Quality">Qualité</sys:String>
     <sys:String x:Key="Str_Tf_ColorMode">Mode couleur</sys:String>
     <sys:String x:Key="Str_Tf_Grayscale">Niveaux de gris</sys:String>
     <sys:String x:Key="Str_Tf_BlackWhite">Noir et blanc</sys:String>
@@ -997,7 +997,7 @@ Les redimensionner à une taille prise en charge ? Les pages conservent leur app
     <sys:String x:Key="Str_Handoff_MalformedUrl">L'adresse du PDF dans le transfert n'a pas pu être lue.</sys:String>
     <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF n'ouvre que les transferts de navigateur via https.</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">Le transfert depuis le navigateur n'a pas pu être effectué.</sys:String>
-    <sys:String x:Key="Str_Handoff_TooLarge">Le PDF est plus volumineux que</sys:String> la limite de 256 Mo pour le transfert depuis le navigateur.</sys:String>
+    <sys:String x:Key="Str_Handoff_TooLarge">Le PDF est plus volumineux que la limite de 256 Mo pour le transfert depuis le navigateur.</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">Le fichier téléchargé n'est pas un PDF.</sys:String>
     <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF n'a pas pu télécharger le PDF.</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">Le téléchargement du PDF a expiré.</sys:String>
