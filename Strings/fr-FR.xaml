@@ -13,8 +13,8 @@
     <sys:String x:Key="Str_TT_Save">Enregistrer (Ctrl+S)</sys:String>
 
     <!-- ── Drop zone / empty state ──────────────────────────────────── -->
-    <sys:String x:Key="Str_Drop_Title">Déposez le PDF ici</sys:String>
-    <sys:String x:Key="Str_Drop_Sub">ou cliquez pour parcourir</sys:String>
+    <sys:String x:Key="Str_Drop_Title">Déposer le PDF ici</sys:String>
+    <sys:String x:Key="Str_Drop_Sub">ou cliquer pour parcourir</sys:String>
     <sys:Double x:Key="ZoomBoxWidth">96</sys:Double>
     <sys:String x:Key="Str_TT_SaveAs">Enregistrer sous (Ctrl+Maj+S)</sys:String>
     <sys:String x:Key="Str_TT_SaveFlattened">Enregistrer le PDF aplati (toutes les pages rastérisées - non modifiable)</sys:String>
@@ -26,6 +26,7 @@
     <sys:String x:Key="Str_TT_MovePageDown">Déplacer la page vers le bas (réorganiser)</sys:String>
     <sys:String x:Key="Str_TT_SelectTool">Outil Sélection - cliquer sur les annotations, glisser pour sélectionner du texte, double-cliquer pour modifier (V)</sys:String>
     <sys:String x:Key="Str_TT_TextTool">Outil Texte - cliquer pour ajouter du texte (T)</sys:String>
+    <sys:String x:Key="Str_TT_FormFieldTool">Champ de texte remplissable – créer, sélectionner, déplacer, redimensionner ou supprimer des champs ; clic droit pour modifier la couleur de remplissage (F)</sys:String>
     <sys:String x:Key="Str_TT_HighlightTool">Outil Surlignage - glisser pour surligner (H)</sys:String>
     <sys:String x:Key="Str_TT_StrikeTool">Barré - glisser sur le texte</sys:String>
     <sys:String x:Key="Str_TT_UnderlineTool">Souligné - glisser sur le texte</sys:String>
@@ -60,6 +61,8 @@
     <!-- ── Sidebar tabs ──────────────────────────────────────────────── -->
     <sys:String x:Key="Str_TabPages">PAGES</sys:String>
     <sys:String x:Key="Str_TabOutlines">PLAN</sys:String>
+    <sys:String x:Key="Str_Outline_CollapseAll">Tout réduire</sys:String>
+    <sys:String x:Key="Str_Outline_ExpandAll">Tout développer</sys:String>
     <sys:String x:Key="Str_PageLabel">Page {0}</sys:String>
     <sys:String x:Key="Str_Outline_Untitled">(sans titre)</sys:String>
 
@@ -97,7 +100,7 @@
     <sys:String x:Key="Str_KS_ZoomCursor">Agrandir / Réduire (au curseur)</sys:String>
     <sys:String x:Key="Str_KS_ZoomInOut">Agrandir / Réduire</sys:String>
     <sys:String x:Key="Str_KS_ResetZoom">Réinitialiser le zoom à 100 %</sys:String>
-    <sys:String x:Key="Str_KS_PanView">Faire défiler la vue</sys:String>
+    <sys:String x:Key="Str_KS_PanView">Vue panoramique</sys:String>
     <sys:String x:Key="Str_KS_Editing">ÉDITION</sys:String>
     <sys:String x:Key="Str_KS_Undo">Annuler</sys:String>
     <sys:String x:Key="Str_KS_DeleteAnnot">Supprimer l'annotation sélectionnée</sys:String>
@@ -266,18 +269,19 @@ Les redimensionner à une taille prise en charge ? Les pages conservent leur app
     <sys:String x:Key="Str_ViewMode">MODE D'AFFICHAGE</sys:String>
     <sys:String x:Key="Str_View_Single">Page unique</sys:String>
     <sys:String x:Key="Str_View_Continuous">Défilement continu</sys:String>
-    <sys:String x:Key="Str_View_TwoPage">Double page</sys:String>
+    <sys:String x:Key="Str_View_TwoPage">Page double</sys:String>
     <sys:String x:Key="Str_View_Grid">Grille</sys:String>
     <sys:String x:Key="Str_View_BookMode">Mise en page livre</sys:String>
     <sys:String x:Key="Str_Continuous_EditMsg">Passer en vue page unique pour utiliser les outils d'édition</sys:String>
 
     <!-- ── Overflow menu + menu item labels ───────────────────────────── -->
-    <sys:String x:Key="Str_Lbl_Merge">Fusionner</sys:String>
-    <sys:String x:Key="Str_Lbl_Extract">Extraire</sys:String>
-    <sys:String x:Key="Str_Lbl_Delete">Supprimer</sys:String>
+    <sys:String x:Key="Str_Lbl_Merge">Fusionner les PDFs</sys:String>
+    <sys:String x:Key="Str_Lbl_Extract">Extraire les pages</sys:String>
+    <sys:String x:Key="Str_Lbl_Delete">Supprimer les pages</sys:String>
     <sys:String x:Key="Str_Lbl_MoveUp">Monter la page</sys:String>
     <sys:String x:Key="Str_Lbl_MoveDown">Descendre la page</sys:String>
     <sys:String x:Key="Str_Lbl_Text">Texte</sys:String>
+    <sys:String x:Key="Str_Lbl_FormField">Formulaires (F)</sys:String>
     <sys:String x:Key="Str_Lbl_Highlight">Surligner</sys:String>
     <sys:String x:Key="Str_Lbl_Strike">Barré</sys:String>
     <sys:String x:Key="Str_Lbl_Underline">Souligné</sys:String>
@@ -338,7 +342,7 @@ Les redimensionner à une taille prise en charge ? Les pages conservent leur app
     <sys:String x:Key="Str_Stamp_Title">Numéroter les pages</sys:String>
     <sys:String x:Key="Str_Stamp_StartAt">Commencer à</sys:String>
     <sys:String x:Key="Str_Stamp_Format">Format</sys:String>
-    <sys:String x:Key="Str_Stamp_Hint">{}{n} = numéro de page, {N} = total. ex. « Page {n} sur {N} »</sys:String>
+    <sys:String x:Key="Str_Stamp_Hint">{}{n} = numéro de page, {N} = total. p. ex. « Page {n} sur {N} »</sys:String>
     <sys:String x:Key="Str_Stamp_Hint2">Exemple : &quot;Page {n} sur {N}&quot;</sys:String>
     <sys:String x:Key="Str_Stamp_Position">Position</sys:String>
     <sys:String x:Key="Str_Stamp_FontSize">Taille de police (pt)</sys:String>
@@ -384,10 +388,10 @@ Les redimensionner à une taille prise en charge ? Les pages conservent leur app
     <sys:String x:Key="Str_Print_Fit">Ajuster à la page</sys:String>
     <sys:String x:Key="Str_Print_Actual">Taille réelle (100%)</sys:String>
     <sys:String x:Key="Str_Print_Custom">% personnalisé</sys:String>
-    <sys:String x:Key="Str_Print_ScaleHint">Pourcentage d'échelle (ex. 50 ou 50,23)</sys:String>
+    <sys:String x:Key="Str_Print_ScaleHint">Pourcentage d'échelle (p. ex. 50 ou 50,23)</sys:String>
     <sys:String x:Key="Str_Print_Copies">Copies</sys:String>
     <sys:String x:Key="Str_Print_Pages">Pages</sys:String>
-    <sys:String x:Key="Str_Print_PagesHint">ex. 1-3,5  (vide = toutes)</sys:String>
+    <sys:String x:Key="Str_Print_PagesHint">p. ex. 1-3,5  (vide = toutes)</sys:String>
     <sys:String x:Key="Str_Print_NoPages">Aucune page</sys:String>
     <sys:String x:Key="Str_Print_Margins">Marges</sys:String>
     <sys:String x:Key="Str_Margin_None">Aucune</sys:String>
@@ -575,7 +579,7 @@ Les redimensionner à une taille prise en charge ? Les pages conservent leur app
     <sys:String x:Key="Str_Crop_Pages">Pages</sys:String>
     <sys:String x:Key="Str_Crop_All">Toutes</sys:String>
     <sys:String x:Key="Str_Crop_Apply">Recadrer</sys:String>
-    <sys:String x:Key="Str_Crop_RangeTip">Plage de pages, ex. 1-3,5 (vide = page actuelle)</sys:String>
+    <sys:String x:Key="Str_Crop_RangeTip">Plage de pages, p. ex. 1-3,5 (vide = page actuelle)</sys:String>
     <sys:String x:Key="Str_Crop_AllTip">Recadrer toutes les pages</sys:String>
 
     <!-- View-mode + full-screen shortcuts -->
@@ -863,6 +867,7 @@ Les redimensionner à une taille prise en charge ? Les pages conservent leur app
     <sys:String x:Key="Str_St_TextEditError">Erreur de modification du texte : {0}</sys:String>
     <sys:String x:Key="Str_St_OcrNoTextPage">OCR : aucun texte trouvé sur la page {0}</sys:String>
     <sys:String x:Key="Str_St_OcrCopiedPage">OCR : {0} caractères copiés de la page {1} (confiance {2})</sys:String>
+    <sys:String x:Key="Str_St_OcrCopiedPages">OCR : {0} caractères copiés depuis {1} pages (confidance : {2})</sys:String>
     <sys:String x:Key="Str_St_OcrCopiedRegion">OCR : {0} caractères copiés de la région (confiance {1})</sys:String>
     <sys:String x:Key="Str_St_SearchableSaved">PDF interrogeable enregistré : {0} pages, {1} mots reconnus</sys:String>
     <sys:String x:Key="Str_St_TextExtracted">Texte extrait de {0} pages -> {1}</sys:String>
@@ -938,6 +943,10 @@ Les redimensionner à une taille prise en charge ? Les pages conservent leur app
     <sys:String x:Key="Str_Btn_Yes">Oui</sys:String>
     <sys:String x:Key="Str_Btn_No">Non</sys:String>
     <sys:String x:Key="Str_RecentMissing">manquant</sys:String>
+    <sys:String x:Key="Str_St_PlaceSignature">Cliquer sur la page pour placer votre signature</sys:String>
+    <sys:String x:Key="Str_St_PlaceInitials">Cliquer sur la page pour placer vos initiales</sys:String>
+    <sys:String x:Key="Str_St_SelectionCleared">Sélection annulée</sys:String>
+    <sys:String x:Key="Str_St_AnnotationsSelected">{0} annotations sélectionnées – appuyez sur Suppr pour les retirer</sys:String>
     <sys:String x:Key="Str_St_CopiedAnnotationOne">1 annotation copiée</sys:String>
     <sys:String x:Key="Str_St_CopiedAnnotationMany">{0} annotations copiées</sys:String>
     <sys:String x:Key="Str_St_PastedAnnotationOne">1 annotation collée</sys:String>
